@@ -10,5 +10,9 @@
     "*.tcc": "c",
     "_routes.h": "c"
   },
-  "idf.openOcdConfigs": ["interface/ftdi/esp32_devkitj_v1.cfg", "target/esp32.cfg"]
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32.cfg"
+  ],
+  "cmake.configureOnOpen": true
 }
